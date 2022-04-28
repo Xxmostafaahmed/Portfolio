@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.0/css/all.css"
+        integrity="sha512-ajhUYg8JAATDFejqbeN7KbF2zyPbbqz04dgOLyGcYEk/MJD3V+HJhJLKvJ2VVlqrr4PwHeGTTWxbI+8teA7snw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link rel="stylesheet" href="sweetalert2.min.css"> 
+
+</head>
+
+<body>
+  <header class="header" id="scroll-section">
+    <img src="img/logo.jpg" alt="our main logo" class="logo" />
+
+    <nav class="navbar">
+      <ul class="navbar-lists" id="home">
+        
+        <li><a href="#"><span class="color" id="white"></span></a></li>
+        <li><a href="#"><span class="color" id="gray"></span></a></li>
+        <li><a href="#"><span class="color" id="blue"></span></a></li>
+        <li><a href="#"><span class="color" id="yellow"></span></a></li>
+
+
+
+        <li><a href="#home" class="navbar-link home-link">Home</a></li>
+        <li>
+          <a href="#" class="navbar-link about-link" id="about-section">About</a>
+        </li>
+        <li>
+          <a class="navbar-link service-link" href="#service-section">Services</a>
+        </li>
+        <li>
+          <a class="navbar-link portfolio-link" href="#portfolio-section">Portfolio</a>
+        </li>
+        <li>
+          <a class="navbar-link contact-link" href="#contact-section" >Contact</a>
+        </li>
+      </li>
+      </ul>
+    </nav>
+
+    <div class="mobile-navbar-btn">
+      <ion-icon name="menu-sharp" class="mobile-nav-icon"></ion-icon>
+      <ion-icon name="close-sharp" class="mobile-nav-icon"></ion-icon>
+    </div>
+  </header>
+
+
+  <main>
+    <section class="main-section">
+      <div class=" container grid container-grid">
+
+        <div class="section-data">
+          <p class="top-data">This is me</p>
+          <h1 class="heading">Mostafa Ahmed</h1>
+          <p class="para">Hi i'm Mostafa Ahmed ,A full stack developer / <br> a passonated developer from
+            India</p>
+          <div class="btn">
+            <a href="#" class="btn" >Hire Me</a>
+          </div>
+
+        </div>
+        <div class="section-img">
+          <img src="img/hero.jpg" alt="Mostafa" class="img">
+
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- bio data  -->
+  <section class="main-section">
+    <div class="container grid container-grid">
+      <div class="bio-img">
+        <img src="img/biodata.jpg" alt="bio">
+      </div>
+      <div class="bio-data">
+        <h2 class="common-heading">My bio-data</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo laboriosam consequatur animi dolor
+          at expedita mollitia quibusdam tenetur! <br>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet quod minus eos.</p>
+        <div class="bio-data-statuse">
+          <div class="bio-status">
+            <h3>Design</h3>
+            <div class="bio-bar">
+              <span>90%</span>
+
+            </div>
+
+
+          </div>
+
+
+
+          <div class="bio-statuse bio-bar1">
+            <h3>HTML</h3>
+            <div class="bio-bar">
+              <span>92%</span>
+
+            </div>
+
+          </div>
+
+
+          <div class="bio-statuse bio-bar2">
+            <h3>CSS</h3>
+            <div class="bio-bar">
+              <span>80%</span>
+
+            </div>
+
+          </div>
+
+
+          <div class="bio-status bio-bar3">
+            <h3>JavaScript</h3>
+            <div class="bio-bar">
+              <span>75%</span>
+
+            </div>
+
+          </div>
+
+
+          <div class="bio-statuse bio-bar4">
+            <h3>C++</h3>
+            <div class="bio-bar">
+              <span>70%</span>
+
+            </div>
+
+          </div>
+
+          <div class="bio-statuse bio-bar5">
+            <h3>Python</h3>
+            <div class="bio-bar">
+              <span>74%</span>
+
+            </div>
+
+          </div>
+
+
+        </div>
+
+        <div class="bio-btn">
+          <a href="#" class="btn">Download CV</a>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="section section-portfolio" id="portfolio-section">
+    <div class="container">
+      <h2 class="common-heading" id="portfolio-section">Latest Works</h2>
+      <p>
+       You can see my latest works in <br> bellow
+      </p>
+    </div>
+
+    <div class="p-btns">
+      <div class="btn p-btn" data-btn-num="1">Website</div>
+      <div class="btn p-btn" data-btn-num="2">Work</div>
+      <div class="btn p-btn" data-btn-num="3">Design</div>
+    </div>
+
+    <div class="container grid grid-three-column portfolio-images">
+      <div class="img-overlay p-btn--1">
+        <img src="img/folio/1.jpg" alt="my works" class="work-img" />
+        <div class="overlay">
+          <a href="https://xxmostafaahmed.github.io/placetovisit/" class="common-heading">Project 1</a>
+        </div>
+      </div>
+
+      <div class="img-overlay p-btn--3">
+        <img src="img/folio/4.jpg" alt="my works" class="work-img" />
+        <div class="overlay">
+          <a href="https://xxmostafaahmed.github.io/LogingForm/" class="common-heading">Project 2
+          </a>
+        </div>
+      </div>
+      <div class="img-overlay p-btn--1   ">
+        <img src="img/folio/3.jpg" alt="portfolio images "  class="work-img"/>
+        <div class="overlay">
+          <a href="https://xxmostafaahmed.github.io/placetovisit/" target="_blank" class="common-heading">Project 3</a>
+        </div>
+      </div>
+      <div class="img-overlay p-btn--1 p-btn--2">
+        <img src="img/folio/4.jpg" alt="portfolio images " class="work-img" />
+        <div class="overlay">
+          <a href="https://xxmostafaahmed.github.io/LogingForm/" target="_blank" class="common-heading">Project 4</a>
+        </div>
+      </div>
+      <div class="img-overlay p-btn--2">
+        <img src="img/folio/5.jpg" alt="portfolio images "  class="work-img"/>
+        <div class="overlay">
+          <a href="https://xxmostafaahmed.github.io/placetovisit/" target="_blank" class="common-heading">Project 5</a>
+        </div>
+      </div>
+      <div class="img-overlay p-btn--3">
+        <img src="img/folio/1.jpg" alt="portfolio images " class="work-img" />
+        <div class="overlay">
+          <a href="https://xxmostafaahmed.github.io/LogingForm/" target="_blank" class="common-heading">Project 6</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <!-- service -->
+  <section class="section section-service">
+    <div class="container">
+      <h2 class="common-heading" id="service-section">Services offers</h2>
+      <p>You can hire me for Web Design , web Development , <br> Photograp and Graphic Design</p>
+    </div>
+    <!-- offers card  -->
+    <div class="container grid grid-three-column">
+      <div class="service-box">
+        <ion-icon name="desktop-outline" class="service-icon"></ion-icon>
+        <h3>Web Design <br></h3>
+        <p>Soft Skills	-Hard Skill <br>
+          Collaboration -	UI <br>
+            Leadership   -	SEO
+          Problem solving-	HTML, CSS
+         Detail-Oriented-	Adobe Creative Suite
+        </p>
+      </div>
+
+      <div class="service-box">
+
+        <ion-icon name="logo-web-component" class="service-icon"></ion-icon>
+        <h3>Web Development</h3>
+        <p>Get the latest web development updates on your sites and <br> apps with useful guidance, analysis and knowledge. Build or adapt your website with web</p>
+      </div>
+
+      <div class="service-box">
+
+        <ion-icon name="camera-sharp" class="service-icon"></ion-icon>
+
+        <h3>Photograp <br></h3>
+            <p>Creativity. <br>
+              Technical photography skills. <br>
+              Patience and concentration. <br>
+              Attention to detail. <br>
+              Strong networking skills. <br>
+              Team working skillsp 
+      </div>
+
+      <div class="service-box">
+
+
+
+        <ion-icon name="apps-sharp" class="service-icon"></ion-icon>
+
+        <h3>Mobile App</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora quasi provident <br> sequi inventore esse
+          eaque assumenda.</p>
+      </div>
+
+      <div class="service-box">
+
+        <ion-icon name="bag-handle-outline" class="service-icon"></ion-icon>
+
+
+        <h3>App Interface</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora quasi provident <br> sequi inventore esse
+          eaque assumenda.</p>
+      </div>
+
+      <div class="service-box">
+
+        <ion-icon name="albums-outline" class="service-icon"></ion-icon>
+
+
+
+        <h3>Graphic Design</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora quasi provident <br> sequi inventore esse
+          eaque assumenda.</p>
+      </div>
+
+    </div>
+
+
+  </section>
+
+
+
+  </div>
+
+  <!-- need more -->
+  <section class="section section-freeelanching">
+    <div class="overlay">
+      <div class="container">
+        <h2>I am <span>available</span> for freelanching</h2>
+        <p>I have 4 months exprience on this field</p>
+      </div>
+      <a href="#" class="btn" id="#contact-section">Hire Me</a>
+
+    </div>
+
+  </section>
+  <!-- contact -->
+
+  <section class="section section-contact">
+
+
+    <div class="contact-container">
+      <div class="contact-header">
+          <h2 class="common" id="contact-section">Inform us</h2>
+      </div>
+      <form id="form" class="form" action="https://formspree.io/f/xoqrkpzp"
+      method="POST">
+          <div class="form-control">
+              <label for="username">Username</label>
+              <input type="text" placeholder="" id="username" autocomplete="off" required  name="username" />
+              <i class="fas fa-check-circle"></i>
+              <i class="fas fa-exclamation-circle"></i>
+              <small>Error message</small>
+          </div>
+          <div class="form-control">
+              <label for="username">Email</label>
+              <input type="email" placeholder="" id="email" autocomplete="off" required  name="email"/>
+              <i class="fas fa-check-circle"></i>
+              <i class="fas fa-exclamation-circle"></i>
+              <small>Error message</small>
+          </div>
+          <div class="form-control">
+              <label for="username">Subject</label>
+              <input type="subject" placeholder="subject" id="subject" autocomplete="off" required name="subject" />
+              <i class="fas fa-check-circle"></i>
+              <i class="fas fa-exclamation-circle"></i>
+              <small>Error message</small>
+          </div>
+          <div class="form-control">
+              <label for="username">Your Msg</label>
+              <input type="msg" placeholder="msg" id="msg" autocomplete="off"  required name="message"/>
+              <i class="fas fa-check-circle"></i>
+              <i class="fas fa-exclamation-circle"></i>
+              <small>Error message</small>
+          </div>
+          <button type="submit">Send</button>
+      </form >
+  </div>
+    
+
+        </div>
+      </form>
+
+    </div>
+
+  </section>
+  <div class="last-section">
+    <a href="#about-section">  About <br>Mostafa Ahmed <br>Assam <br>Goalpara</a>
+    <a href="#">Services   <br>Web Design <br>Web Development <br>Photograp
+    <br>Mobile app <br>App Interface <br>Graphic Design</a>
+    <a href="#" class=" social">Contact  <br>
+      <a href="https://www.facebook.com/profile.php?id=100036487124669" target="-blank">
+      <ion-icon name="logo-facebook" class="fb"></ion-icon> <br>
+    </a>
+      <a href="https://www.instagram.com/invites/contact/?i=6y7s4cg7xqfm&utm_content=ee45use" target="-blank">
+      <ion-icon name="logo-instagram" class="ins"></ion-icon> <br>
+    </a>
+      <a href="https://twitter.com/Mostafa57259261?t=E4i_knXdBc5as1UNPI3hJg&s=08" target="-blank"></a>
+      <ion-icon name="logo-twitter" class="tw"></ion-icon>
+    </a>
+
+    
+    
+    </a>
+    
+  </div>
+<!-- sscroll  -->
+  <div class="scroll">
+    <a href="#scroll-section" id="icon"><ion-icon name="cloud-upload-outline" id="scroll"></ion-icon></a>
+  </div>
+
+
+  <script src="script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+
+</body>
+
+</html>
